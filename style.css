@@ -1,0 +1,65 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Shantell Sans', cursive;
+
+}
+.container
+{
+    max-width: 80%;
+    padding: 34px;
+    margin:auto;
+}
+.container h1
+{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+input,textarea
+{
+    /* display: block; */
+    width: 80%;
+    margin: 11px 0px;
+    padding: 7px;
+    font-size: medium;
+    border: 2px solid black;
+    border-radius: 6px;
+   
+}
+p{
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Shantell Sans', cursive;
+    color:black;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+}
+.btn
+{
+    color: white;
+    background: purple;
+    padding: 15px 10px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+}
+.SJCET
+{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+   
+}
+.submitMsg
+{
+    font-size: 17px;
+    font-family: 'Shantell Sans', cursive;
+    color:brown;
+}
